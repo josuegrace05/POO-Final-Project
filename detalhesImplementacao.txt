@@ -1,0 +1,37 @@
+				
+
+														Projeto do Trabalho final de POO
+
+Passos da implementação:
+
+	1. Criar interface gráfica básica para o desenvolvimento
+	
+	2. Cadastramento:
+
+		2.1 Organização dos arquivos
+
+			2.1.1 Uma pasta para usuários criadores de eventos
+
+				1. Um arquivo para todos os usuários
+				2. Campos dos registros(Registro de tamanho fixo de 100 caracteres)
+					2.1 Nome Completo (30 caracteres)
+					2.2 Email (50 caracteres)
+					2.3 Senha (20 caracteres)
+
+			2.1.2 Uma pasta para eventos
+
+				1. Um arquivo para cada tipo de evento
+				2. Um evento pode ter vários gêneros
+				3. Campos do registros(Registro de tamanho variável com indicador de tamanho, campos de tamanho fixo e variável com delimitador '\0')
+
+					3.3 Data -- fixo (10 caracteres)
+					3.1 Nome do criador (email) -- fixo (50 caracteres)
+					3.2 Nome do evento -- variável
+					3.3 Horário de inicio -- fixo (5 caracteres) 
+					3.4 Horário de fim -- fixo (5 caracteres)
+
+				4. O arquivo é ordenado por data e hora
+
+	3. Funcionalidades do app
+		
+	
