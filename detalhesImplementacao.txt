@@ -33,5 +33,6 @@ Passos da implementação:
 				4. O arquivo é ordenado por data e hora
 
 	3. Funcionalidades do app
+	4. 
 		
 	
