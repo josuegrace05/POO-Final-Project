@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a9770382.event.SignUpActivity">
+
+    <EditText
+        android:id="@+id/confirmEmailText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/confirmEmailText"
+        android:inputType="textEmailAddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailSignUpText"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/confirmPasswordText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/confirmPasswordText"
+        android:inputType="textPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordSignUpText"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/passwordSignUpText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/passwordSignUpText"
+        android:inputType="textPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmEmailText"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/emailSignUpText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/emailSignUpTex"
+        android:inputType="textEmailAddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userText"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="212dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/registerButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordText"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/userText"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBarSignUp"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="311dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginRight="168dp"
+        android:layout_marginTop="168dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

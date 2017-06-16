@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Event</string>
+    <string name="loginButton">Log In</string>
+    <string name="searchEventButton">Search Events</string>
+    <string name="orTextview">Or</string>
+    <string name="signInButton">Sign In</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="passwordText">Password</string>
+    <string name="emailText">E-mail</string>
+    <string name="userText">Username</string>
+    <string name="registerButton">Register</string>
+    <string name="emailSignUpTex">E-mail</string>
+    <string name="passwordSignUpText">Password</string>
+    <string name="confirmPasswordText">Confirm password</string>
+    <string name="confirmEmailText">Confirm E-mail</string>
+    <string name="progressBarSignUp">conecting...</string>
+    <string name="userTextView">Welcome</string>
+    <string name="usernameText">Username</string>
+</resources>
